@@ -123,6 +123,8 @@ When you run the application, you'll be presented with a menu-driven interface o
 
 ### Example Usage
 
+![Example Usage](images/Example_usage.png)
+
 To create a new habit:
 1. Select option 1 from the main menu
 2. Enter habit name (e.g., "Study")
