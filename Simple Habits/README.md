@@ -86,9 +86,7 @@ To start using the Simple Habits application, follow these steps:
   - To check, type `python --version` in PowerShell
   - If not installed, download it from python.org
 - Ensure you're in the correct directory (Program folder) when running the commands
-- If you get a 'pip not found' error, try using: `python -m pip install -r requirements.txt`
-- If you get a permission error, try running PowerShell as administrator
-  
+
 ## Usage
 
 When you run the application, you'll be presented with a menu-driven interface offering the following options:
