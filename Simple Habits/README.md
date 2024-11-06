@@ -37,7 +37,6 @@ A Python-based habit tracking application that helps users create, maintain, and
 
 ### Prerequisites
 - Python 3.8 or higher
-- pip (Python package installer)
 
 ### Required Packages
 The following Python packages are required to run the application:
