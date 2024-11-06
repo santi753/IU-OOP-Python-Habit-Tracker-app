@@ -184,10 +184,10 @@ The application includes a comprehensive test suite using pytest to ensure relia
 ### Running Tests
 
 To run all tests:
-- `pytest test.py`
+- `python -m pytest test.py`
 
 To run tests with detailed output:
-- `pytest -v test.py`
+- `python -m pytest -v test.py`
 
 ### Test Coverage
 
