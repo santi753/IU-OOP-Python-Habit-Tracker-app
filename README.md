@@ -23,6 +23,7 @@ A Python-based habit tracking application that helps users create, maintain, and
    - [Test Database](#test-database)
 6. [Contributing](#contributing)
 7. [License](#license)
+8. [Support](#support)
 
 ## Features
 
