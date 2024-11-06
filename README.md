@@ -229,4 +229,6 @@ This project is licensed under the MIT License.
 
 MIT License
 
-Copyright (c) 2024 santi753
+## Support
+
+If you have questions or need further guidance, please reach out to santi_753@hotmail.com
