@@ -1,0 +1,9 @@
+datetime
+collections
+logging
+sqlite3
+tabulate==0.9.0
+click==8.1.7
+pytest==7.4.3
+os
+sys
