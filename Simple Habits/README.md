@@ -52,7 +52,7 @@ The following Python packages are required to run the application:
 - os
 - sys
 
-### Setup Explained
+### Setup 
 
 To start using the Simple Habits application, follow these steps:
 
