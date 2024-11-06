@@ -52,20 +52,40 @@ The following Python packages are required to run the application:
 - os
 - sys
 
-### Setup
+### Setup 
 
-1. Clone the repository  
-   - `git clone https://github.com/santi753/IU-OOP-Python-Habit-Tracker-app.git`
+To start using the Simple Habits application, you'll need to follow these four steps:
 
-2. Navigate to the project directory  
-   - `cd IU-OOP-Python-Habit-Tracker-app/Simple Habits`
+1. **Clone the repository**
+  - This means downloading the project code to your computer
+  - Open your terminal/command prompt
+  - Type or copy this command: `git clone https://github.com/santi753/IU-OOP-Python-Habit-Tracker-app.git`
+  - This will create a copy of the project on your computer
+  - If you don't have git installed, you can also download the project as a ZIP file from GitHub and extract it
 
-3. Install the required packages  
-   - `pip install -r requirements.txt`
+2. **Navigate to the project directory**
+  - After the download is complete, you need to go to the project folder
+  - In your terminal, type: `cd IU-OOP-Python-Habit-Tracker-app\Simple Habits`
+  - This command moves you into the correct folder where the application files are located
 
-4. Run the application  
-   - `python main.py`
+3. **Install the required packages**
+  - Before running the app, you need to install all the necessary Python packages
+  - Make sure you have Python and pip installed on your computer
+  - Type this command: `pip install -r requirements.txt`
+  - This reads the requirements.txt file and installs all needed packages automatically
+  - Wait until all installations are complete
 
+4. **Run the application**
+  - Now you're ready to start the application
+  - Type: `python main.py`
+  - The application will start and show you the main menu
+  - You can now start creating and tracking your habits!
+
+**Troubleshooting**
+- Make sure Python is installed on your computer
+- Ensure you're in the correct directory when running the commands
+- Check that all packages installed correctly
+  
 ## Usage
 
 When you run the application, you'll be presented with a menu-driven interface offering the following options:
@@ -84,24 +104,18 @@ When you run the application, you'll be presented with a menu-driven interface o
    - System checks if marking is allowed based on periodicity
    - Automatic tracking of completion dates
 
-4. **View your habits**
-   - List all currently tracked habits
-   - See creation dates
-   - View frequency and periodicity
-   - Check last completion date
-
 5. **Analyze habits**
+   - List all currently tracked habits
    - Filter habits by frequency (daily/weekly)
    - View completion dates for specific habits
    - Check current streaks
    - See longest streaks
-   - Find your most consistent habit
 
 ### Example Usage
 
 To create a new habit:
 1. Select option 1 from the main menu
-2. Enter habit name (e.g., "Morning Exercise")
+2. Enter habit name (e.g., "Study")
 3. Choose frequency ("daily" or "weekly")
 4. Set periodicity (e.g., 3 times per week)
 
@@ -167,25 +181,28 @@ To run tests with detailed output:
 
 ### Test Coverage
 
-The test suite covers:
+The test suite covers three main components:
 
 1. **Habit Class Testing**
-   - Habit creation
-   - Frequency validation
-   - Periodicity checking
-   - Completion date tracking
-   - Streak calculations (daily and weekly)
+   - Habit creation and initialization
+   - Habit performed
+   - Can mark performed
+   - Current streak calculations
+   - Longest streak calculations
 
 2. **Database Testing**
-   - Database creation and connection
+   - Database creation and initialization
+   - Table structure verification
 
-3. **Analysis Testing**
-   - Habit filtering
-   - Data presentation
-
-4. **Integration Testing**
-   - Data consistency
-   - User operation sequences
+3. **Main Program Menu Functions**
+   - Habit creation functionality
+   - Habit deletion process
+   - Viewing all habits
+   - Filtering habits by frequency
+   - Viewing completion dates
+   - Checking current streaks
+   - Calculating longest streaks
+   - Finding habits with longest streaks
 
 ### Test Database
 
