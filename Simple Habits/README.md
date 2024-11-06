@@ -26,10 +26,10 @@ A Python-based habit tracking application that helps users create, maintain, and
 
 ## Features
 
-- Create and delete habits with customizable frequencies (daily/weekly)
-- Track habit completion with built-in periodicity checks
+- Create and delete habits with customizable periodicity and frequencies (daily/weekly)
+- Track habit completion
 - View all currently tracked habits in a formatted table
-- Filter habits by frequency (daily/weekly)
+- Filter habits by frequency 
 - View completion dates for specific habits
 - Track current and longest streaks for each habit
 - Find the habit with the longest streak
@@ -40,9 +40,11 @@ A Python-based habit tracking application that helps users create, maintain, and
 ## Installation
 
 ### Prerequisites
+
 - Python 3.8 or higher
 
 ### Required Packages
+
 The following Python packages are required to run the application:
 
 - datetime
@@ -90,6 +92,9 @@ To start using the Simple Habits application, follow these steps:
   - To check, type `python --version` in PowerShell
   - If not installed, download it from python.org
 - Ensure you're in the correct directory (Program folder) when running the commands
+
+> **Note**: While these instructions are for Windows users, the application can be run on MacOS and Linux with very similar steps,
+> just adjusting the commands for the command line or Terminal instead of PowerShell.
 
 ## Usage
 
