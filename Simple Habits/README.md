@@ -52,39 +52,39 @@ The following Python packages are required to run the application:
 - os
 - sys
 
-### Setup 
+### Setup Explained
 
-To start using the Simple Habits application, you'll need to follow these four steps:
+To start using the Simple Habits application, follow these steps:
 
-1. **Clone the repository**
-  - This means downloading the project code to your computer
-  - Open your terminal/command prompt
-  - Type or copy this command: `git clone https://github.com/santi753/IU-OOP-Python-Habit-Tracker-app.git`
-  - This will create a copy of the project on your computer
-  - If you don't have git installed, you can also download the project as a ZIP file from GitHub and extract it
+1. **Download the project**
+  - Go to the GitHub repository: https://github.com/santi753/IU-OOP-Python-Habit-Tracker-app
+  - Click the green 'Code' button
+  - Select 'Download ZIP'
+  - Extract the ZIP file to your desired location on your computer
 
-2. **Navigate to the project directory**
-  - After the download is complete, you need to go to the project folder
-  - In your terminal, type: `cd IU-OOP-Python-Habit-Tracker-app\Simple Habits`
-  - This command moves you into the correct folder where the application files are located
+2. **Navigate to the program directory**
+  - Open PowerShell
+  - Navigate to the extracted folder using the cd command:
+  - Type: `cd path\to\IU-OOP-Python-Habit-Tracker-app\Simple Habits\Program`
+  - Replace "path\to" with the actual path where you extracted the ZIP file
+  - For example: `cd C:\Users\YourName\Downloads\IU-OOP-Python-Habit-Tracker-app\Simple Habits\Program`
 
 3. **Install the required packages**
-  - Before running the app, you need to install all the necessary Python packages
   - Make sure you have Python and pip installed on your computer
-  - Type this command: `pip install -r requirements.txt`
-  - This reads the requirements.txt file and installs all needed packages automatically
+  - In PowerShell, type: `pip install -r requirements.txt`
+  - This will automatically install all necessary packages
   - Wait until all installations are complete
 
 4. **Run the application**
-  - Now you're ready to start the application
-  - Type: `python main.py`
+  - In the same PowerShell window, type: `python main.py`
   - The application will start and show you the main menu
   - You can now start creating and tracking your habits!
 
 **Troubleshooting**
 - Make sure Python is installed on your computer
-- Ensure you're in the correct directory when running the commands
-- Check that all packages installed correctly
+ - To check, type `python --version` in PowerShell
+ - If not installed, download it from python.org
+- Ensure you're in the correct directory (Program folder) when running the commands
   
 ## Usage
 
