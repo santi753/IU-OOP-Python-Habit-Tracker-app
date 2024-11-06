@@ -144,8 +144,8 @@ The project follows an object-oriented design with the following main components
 - **habit.py**
   - `Habit` class implementation
   - Core functionality for habit management
-  - Streak calculation methods
   - Completion tracking logic
+  - Streak calculation methods
 
 - **database.py**
   - `Database` class for data persistence
