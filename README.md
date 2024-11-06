@@ -220,7 +220,8 @@ Tests use a separate test database (`test_habits.db`) to ensure:
 
 ## Contributing
 
-This project is open source and contributions are welcome. 
+If you find any issues or have feature requests, please open an issue on our Github repository. 
+Code contributions in the form of Pull Requests are also welcome. 
 
 ## License
 
