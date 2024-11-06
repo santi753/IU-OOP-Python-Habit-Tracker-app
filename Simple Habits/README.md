@@ -173,26 +173,19 @@ The test suite covers:
    - Habit creation
    - Frequency validation
    - Periodicity checking
-   - Streak calculations (daily and weekly)
    - Completion date tracking
+   - Streak calculations (daily and weekly)
 
 2. **Database Testing**
    - Database creation and connection
-   - Data persistence
-   - CRUD operations
-   - Data retrieval accuracy
 
 3. **Analysis Testing**
-   - Streak calculation accuracy
    - Habit filtering
    - Data presentation
-   - Statistical computations
 
 4. **Integration Testing**
-   - Full workflow scenarios
    - Data consistency
    - User operation sequences
-   - Error handling
 
 ### Test Database
 
@@ -208,7 +201,7 @@ This project is open source and contributions are welcome.
 
 ## License
 
-This project is licensed under the MIT License - see below for details:
+This project is licensed under the MIT License.
 
 MIT License
 
