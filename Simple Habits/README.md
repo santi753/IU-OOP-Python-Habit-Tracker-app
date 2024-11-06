@@ -51,39 +51,43 @@ The following Python packages are required to run the application:
 - os
 - sys
 
-### Setup 
+### Setup
 
 To start using the Simple Habits application, follow these steps:
 
 1. **Download the project**
-  - Go to the GitHub repository: https://github.com/santi753/IU-OOP-Python-Habit-Tracker-app
-  - Click the green 'Code' button
-  - Select 'Download ZIP'
-  - Extract the ZIP file to your desired location on your computer
+   - Go to the GitHub repository: https://github.com/santi753/IU-OOP-Python-Habit-Tracker-app
+   - Click the green 'Code' button
+   - Select 'Download ZIP'
+   - Extract the ZIP file to your desired location on your computer
+
+   ![Download ZIP option from GitHub](images/github_download.png)
 
 2. **Navigate to the program directory**
-  - Open PowerShell
-  - Navigate to the extracted folder using the cd command:
-  - Type: `cd path\to\IU-OOP-Python-Habit-Tracker-app\Simple Habits\Program`
-  - Replace "path\to" with the actual path where you extracted the ZIP file
-  - For example: `cd C:\Users\YourName\Downloads\IU-OOP-Python-Habit-Tracker-app\Simple Habits\Program`
+   - Open PowerShell
+   - Navigate to the extracted folder using the cd command
+   - You should be in the Program folder within Simple Habits
+   - Example command:
+     ```
+     cd 'C:\PATH\IU-OOP-Python-Habit-Tracker-app-main\Simple Habits\Program'
+     ```
 
-3. **Install the required packages**
-  - Make sure you have Python and pip installed on your computer
-  - In PowerShell, type: `pip install -r requirements.txt`
-  - This will automatically install all necessary packages
-  - Wait until all installations are complete
+   ![PowerShell navigation example](images/powershell_navigation.png)
 
-4. **Run the application**
-  - In the same PowerShell window, type: `python main.py`
-  - The application will start and show you the main menu
-  - You can now start creating and tracking your habits!
+3. **Run the application**
+   - In the same PowerShell window, type: `python main.py`
+   - The application will start and show you the main menu
+   - You can now start creating and tracking your habits!
+
+   ![Application main menu](images/main_menu.png)
 
 **Troubleshooting**
 - Make sure Python is installed on your computer
- - To check, type `python --version` in PowerShell
- - If not installed, download it from python.org
+  - To check, type `python --version` in PowerShell
+  - If not installed, download it from python.org
 - Ensure you're in the correct directory (Program folder) when running the commands
+- If you get a 'pip not found' error, try using: `python -m pip install -r requirements.txt`
+- If you get a permission error, try running PowerShell as administrator
   
 ## Usage
 
