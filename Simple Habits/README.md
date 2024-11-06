@@ -1,5 +1,9 @@
 # Simple Habits - Habit Tracking Application
 
+<p align="center">
+  <img src="images/simple_habits_logo.png" alt="Simple Habits Logo" width="600"/>
+</p>
+
 A Python-based habit tracking application that helps users create, maintain, and analyze their daily and weekly habits. This application was developed as part of the Object-Oriented Programming course at IU International University.
 
 ## Table of Contents
