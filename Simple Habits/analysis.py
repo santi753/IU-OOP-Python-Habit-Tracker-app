@@ -1,5 +1,3 @@
-# analysis.py
-
 from tabulate import tabulate
 import logging
 from database import Database
