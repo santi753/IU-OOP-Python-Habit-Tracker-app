@@ -1,4 +1,4 @@
-# Checking Your Habit Data with `database_check.py`
+# Checking Habit Data with `database_check.py`
 
 To ensure that the habit-tracking program meets the project requirement of having at least four weeks of data, we've provided a 
 simple module called `database_check.py`. This module allows to view all the habits stored in your `habits.db` database.
