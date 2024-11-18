@@ -1,6 +1,3 @@
-# main.py
-
-
 import click
 import logging
 from habit import Habit
