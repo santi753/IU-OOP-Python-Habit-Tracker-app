@@ -1,5 +1,3 @@
-# test.py
-
 import pytest
 from datetime import datetime, timedelta
 from habit import Habit
